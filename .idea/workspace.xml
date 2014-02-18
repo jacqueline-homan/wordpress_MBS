@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb53c7a7-5e23-4760-8c04-30d721723ac7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-    </list>
+    <list default="true" id="cb53c7a7-5e23-4760-8c04-30d721723ac7" name="Default" comment="" />
     <ignored path="wordpress.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +39,7 @@
       <file leaf-file-name="wp-config.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="30" selection-start="841" selection-end="841" vertical-scroll-proportion="0.43650794" vertical-offset="0" max-vertical-offset="1826">
+            <state line="22" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.39285713" vertical-offset="0" max-vertical-offset="1826">
               <folding />
             </state>
           </provider>
@@ -697,7 +693,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="30" selection-start="841" selection-end="841" vertical-scroll-proportion="0.43650794" vertical-offset="0" max-vertical-offset="1826">
+        <state line="22" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.39285713" vertical-offset="0" max-vertical-offset="1826">
           <folding />
         </state>
       </provider>
