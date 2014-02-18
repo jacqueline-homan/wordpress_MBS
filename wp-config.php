@@ -19,7 +19,7 @@
 
 // This environment variable is selectively set in .htaccess
 
-$env = ( isset($_SERVER['APPLICATION_ENV']) && $_SERVER['APPLICATION_ENV'] === "dev")
+$env = ( isset($_SERVER['APPLICATION_ENV']) && $_SERVER['APPLICATION_ENV'] != null)
     ? strtoupper($_SERVER['APPLICATION_ENV'])
     : "PROD";
 
