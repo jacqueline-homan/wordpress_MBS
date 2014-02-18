@@ -26,10 +26,17 @@ $env = ( isset($_SERVER['APPLICATION_ENV']) && $_SERVER['APPLICATION_ENV'] === "
 define('DB_NAME', $_SERVER[$env."_DB_NAME"]);
 
 /** MySQL database username */
+<<<<<<< HEAD
 define('DB_USER', $_SERVER[ $env."_DB_USER" ]);
 
 /** MySQL database password */
 define('DB_PASSWORD', $_SERVER[$env."_DB_PASSWORD"]);
+=======
+define('DB_USER', 'root');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'abstract');
+>>>>>>> master
 
 /** MySQL hostname */
 define('DB_HOST', $_SERVER[$env."_DB_HOST"]);
