@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'df_shared_dbuser');
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'jacqueline_h');
+define('DB_USER', 'wordpress');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'K4rt0ff3I1');
+define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql.dreamfedshared.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
