@@ -16,16 +16,23 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'com_midsouthbiotics');
+
+// This environment variable is selectively set in .htaccess
+
+//$env = ( isset($_SERVER['APPLICATION_ENV']) && $_SERVER['APPLICATION_ENV'] === "dev")
+//    ? strtoupper($_SERVER['APPLICATION_ENV'])
+//    : "PROD";
+
+define('DB_NAME', $_SERVER[$env."_DB_NAME"]);
 
 /** MySQL database username */
-define('DB_USER', 'df_shared-duser');
+define('DB_USER', $_SERVER[ $env."_DB_USER" ]);
 
 /** MySQL database password */
-define('DB_PASSWORD', 'K4rt0ff3I1');
+define('DB_PASSWORD', $_SERVER[$env."_DB_PASSWORD"]);
 
 /** MySQL hostname */
-define('DB_HOST', 'mysql.dreamfedshared.com');
+define('DB_HOST', $_SERVER[$env."_DB_HOST"]);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
