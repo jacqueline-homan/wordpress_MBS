@@ -3,13 +3,16 @@ SetEnv APPLICATION_ENV dev
 
 
 # [dev]
-SetEnv DEV_DB_NAME test
-SetEnv DEV_DB_USER dbuser
-SetEnv DEV_DB_PASSWORD shutupFudge
+#SetEnv DEV_DB_NAME test
+#SetEnv DEV_DB_USER dbuser
+#SetEnv DEV_DB_PASSWORD shutupFudge
+SetEnv DEV_DB_NAME wordpress
+SetEnv DEV_DB_USER wordpress
+SetEnv DEV_DB_PASSWORD wordpress
 SetEnv DEV_DB_HOST localhost
 
 # [prod]
-SetEnv DEV_DB_NAME com_midsouthbiotics
+SetEnv PROD_DB_NAME com_midsouthbiotics
 SetEnv PROD_DB_USER df_shared_dbuser
 SetEnv PROD_DB_PASSWORD K4rt0ff3l1
 SetEnv PROD_DB_HOST mysql.dreamfedshared.com
